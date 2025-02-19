@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo-container">
+          <span>
+            <img src="./images/zomato.avif" alt="zomato" />
+          </span>
+        </div>
+        <div id="search-container">
+          <section id="location">
+            <span>
+              <svg
+                id="loc"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                />
+              </svg>
+            </span>
+            <span>
+              <input type="text" value="Bengaluru" />
+            </span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="13"
+                fill="currentColor"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </span>
+          </section>
+          <section id="input-box">
+            <span id="search-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                />
+              </svg>
+            </span>
+            <span id="inp-container">
+              <input
+                type="text"
+                placeholder="Search for restaurant, cuisine or a dish"
+              />
+            </span>
+          </section>
+        </div>
+        <div id="reg-container">
+          <span>
+            <a href="">Login</a>
+          </span>
+          <span>
+            <a href="">SignUp</a>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <section id="navigate">
+      <p id="para">
+        <a href="#">Home</a>/ <a href="#">India</a>/
+        <span>Bengaluru Restaurant</span>
+      </p>
+    </section>
+
+    <section id="services">
+      <article>
+        <div id="dining">
+          <span class="images"><img src="./images/Dining.avif" alt="" /></span>
+          <span>Dining Out</span>
+        </div>
+        <div id="delivery">
+          <span class="images"
+            ><img src="./images/Delivery.webp" alt=""
+          /></span>
+          <span>Delivery</span>
+        </div>
+        <div id="nightlife">
+          <span class="images"
+            ><img src="./images/NightLife.webp" alt=""
+          /></span>
+          <span>Nightlife</span>
+        </div>
+      </article>
+    </section>
+    <h1 id="collection">Collections</h1>
+    <section id="explore">
+      <p>
+        Explore curated lists of top restaurants, cafes, pubs, and bars in
+        Bengaluru, based on trends
+      </p>
+      <span>
+        All collections in Bengaluru
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+          />
+        </svg>
+      </span>
+    </section>
+
+    <section id="places">
+      <span>
+        <img src="./images/Best Rooftop.avif" alt="" />
+        <p>Best RooftTop Places</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewBox="0 0 16 16"
+        > <path
+        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+      />
+
+      </span>
+
+      <span>
+        <img src="./images/Newly OPened.avif" alt="" />
+      </span>
+
+      <span>
+        <img src="./images/Its a date.avif" alt="" />
+      </span>
+
+      <span>
+        <img src="./images/Best luxury dining.avif" alt="" />
+      </span>
+    </section>
+
+    <section id="filter">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#9C9C9C"
+          width="18"
+          height="18"
+          viewBox="0 0 20 20"
+          aria-labelledby="icon-svg-title- icon-svg-desc-"
+          role="img"
+          class="sc-rbbb40-0 iwHbVQ"
+        >
+          
+          <path
+            d="M2.14 6.42h7.26c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h2.96c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001h-2.94c-0.341-1.226-1.447-2.11-2.76-2.11s-2.419 0.885-2.755 2.090l-0.005 0.020h-7.26c-0.343 0.059-0.6 0.355-0.6 0.71s0.257 0.651 0.596 0.709l0.004 0.001zM12.16 4.28c0.776 0.011 1.4 0.643 1.4 1.42 0 0.784-0.636 1.42-1.42 1.42-0.777 0-1.409-0.624-1.42-1.399l-0-0.001c-0-0.006-0-0.013-0-0.020 0-0.784 0.636-1.42 1.42-1.42 0.007 0 0.014 0 0.021 0l-0.001-0zM17.86 13.58h-7.24c-0.328-1.245-1.443-2.148-2.77-2.148s-2.442 0.903-2.766 2.128l-0.004 0.020h-2.94c-0.036-0.006-0.077-0.010-0.12-0.010-0.398 0-0.72 0.322-0.72 0.72s0.322 0.72 0.72 0.72c0.042 0 0.084-0.004 0.124-0.011l-0.004 0.001h2.96c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h7.26c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001zM7.84 15.72c-0.776-0.011-1.4-0.643-1.4-1.42 0-0.784 0.636-1.42 1.42-1.42 0.777 0 1.409 0.624 1.42 1.399l0 0.001c0 0.006 0 0.013 0 0.020 0 0.784-0.636 1.42-1.42 1.42-0.007 0-0.014-0-0.021-0l0.001 0z"
+          ></path>
+        </svg>
+        Filters
+      </div>
+      <div>Offers</div>
+      <div>Rating: 4.5+</div>
+      <div>Pet Friendly</div>
+      <div>Outdoor Seating</div>
+      <div>Serves Alcohol</div>
+      <div>Open Now</div>
+    </section>
+
+    <!-- Offer -->
+    <div id="offer">
+      <img src="./images/offer.avif" alt="offer" />
+    </div>
+
+    <div id="best">
+      <h1>Best Food In Bengaluru</h1>
+    </div>
+
+    <section id="hotels">
+      <div class="card">
+          <div class="photo">
+              <img src="./images/2.avif" alt="Hotel Image">
+          </div>
+          <div class="details">
+              <div class="top">
+                  <span class="brand">Muro</span>
+                  <span class="rating">4.5*</span>
+              </div>
+              <div class="food">
+                <span class="dish">Thai, Cantonese, Salad,</span> 
+                <span>₹ 1500 for Two</span>
+              </div>
+              <div class="address">Church Street, Banglore
+                <span class="km">997m</span>
+              </div>
+          </div>
+      </div>
+     
+      <div class="card">
+        <div class="photo">
+            <img src="./images/3.avif" alt="Hotel Image">
+        </div>
+        <div class="details">
+            <div class="top">
+                <span class="brand">Botany Brew and Kitchen</span>
+                <span class="rating">NEW*</span>
+            </div>
+            <div class="food">
+              <span class="dish">North Indian, Chinese</span> 
+              <span>₹ 2,700 for Two</span>
+            </div>
+            <div class="address">Lavelle Road, Banglore
+              <span class="km">494m</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+      <div class="photo">
+          <img src="./images/4.avif" alt="Hotel Image">
+      </div>
+      <div class="details">
+          <div class="top">
+              <span class="brand">Toca Terrace</span>
+              <span class="rating">4.1*</span>
+          </div>
+          <div class="food">
+            <span class="dish">South Indian, North Indian</span> 
+            <span>₹ 1,100 for Two</span>
+          </div>
+          <div class="address">Brigade Road, Banglore
+            <span class="km">1.4 km</span>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <div class="photo">
+        <img src="./images/5.avif" alt="Hotel Image">
+    </div>
+    <div class="details">
+        <div class="top">
+            <span class="brand">Gilly Resto Bar</span>
+            <span class="rating">4.3*</span>
+        </div>
+        <div class="food">
+          <span class="dish">North Indian, Continental</span> 
+          <span>₹ 1,200 for Two</span>
+        </div>
+        <div class="address">Old Airport Road, Banglore
+          <span class="km">6.7 km</span>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+  <div class="photo">
+      <img src="./images/6.avif" alt="Hotel Image">
+  </div>
+  <div class="details">
+      <div class="top">
+          <span class="brand">Muro</span>
+          <span class="rating">4.5*</span>
+      </div>
+      <div class="food">
+        <span class="dish">Thai, Cantonese, Salad,</span> 
+        <span>₹ 1500 for Two</span>
+      </div>
+      <div class="address">Church Street, Banglore
+        <span class="km">997m</span>
+      </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="photo">
+      <img src="./images/2.avif" alt="Hotel Image">
+  </div>
+  <div class="details">
+      <div class="top">
+          <span class="brand">Muro</span>
+          <span class="rating">4.5*</span>
+      </div>
+      <div class="food">
+        <span class="dish">Thai, Cantonese, Salad,</span> 
+        <span>₹ 1500 for Two</span>
+      </div>
+      <div class="address">Church Street, Banglore
+        <span class="km">997m</span>
+      </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="photo">
+      <img src="./images/2.avif" alt="Hotel Image">
+  </div>
+  <div class="details">
+      <div class="top">
+          <span class="brand">Muro</span>
+          <span class="rating">4.5*</span>
+      </div>
+      <div class="food">
+        <span class="dish">Thai, Cantonese, Salad,</span> 
+        <span>₹ 1500 for Two</span>
+      </div>
+      <div class="address">Church Street, Banglore
+        <span class="km">997m</span>
+      </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="photo">
+      <img src="./images/minsk.avif" alt="Hotel Image">
+  </div>
+  <div class="details">
+      <div class="top">
+          <span class="brand">Minsk Restobar</span>
+          <span class="rating">4.4*</span>
+      </div>
+      <div class="food">
+        <span class="dish">North Indian, Asian, Cantonese, Salad,</span> 
+        <span>₹ 1,400 for Two</span>
+      </div>
+      <div class="address">BTM, Banglore
+        <span class="km">6. km</span>
+      </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="photo">
+      <img src="./images/kormangla.avif" alt="Hotel Image">
+  </div>
+  <div class="details">
+      <div class="top">
+          <span class="brand">Kormangla Social</span>
+          <span class="rating">4.4*</span>
+      </div>
+      <div class="food">
+        <span class="dish">North Indian, Chinese, Biryani</span> 
+        <span>₹ 1,500 for Two</span>
+      </div>
+      <div class="address">Kormangla 7th Block, Banglore
+        <span class="km">4.5 km</span>
+      </div>
+  </div>
+</div>
+  </section>
+  
+  <h1 id="collection">Collections</h1>
+    <section id="explore">
+      <p>
+        Explore curated lists of top restaurants, cafes, pubs, and bars in
+        Bengaluru, based on trends
+      </p>
+      <span>
+        All collections in Bengaluru
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+          />
+        </svg>
+      </span>
+    </section>
+
+    <section id="places">
+      <span>
+        <img src="./images/Best Rooftop.avif" alt="" />
+        <p>Best RooftTop Places</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewBox="0 0 16 16"
+        > <path
+        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+      />
+
+      </span>
+
+      <span>
+        <img src="./images/Newly OPened.avif" alt="" />
+      </span>
+
+      <span>
+        <img src="./images/Its a date.avif" alt="" />
+      </span>
+
+      <span>
+        <img src="./images/Best luxury dining.avif" alt="" />
+      </span>
+    </section>
+
+    <h1 class="popular">Popular localities in and around Bengaluru</h1>
+    <section id="loc">
+      <div>
+        <h5>Indiranagar</h5>
+       <span> <p>608places</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg></span>
+      </div>
+      
+      <div>
+        <h5>Marathalli</h5>
+        <span><p>1044 places</p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg></span>
+        
+      </div>
+      <div>
+        <h5>WhiteField</h5>
+        <span><p>608 places</p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+        </span>
+        
+      </div>
+      <div>
+        <h5>Kormangla 5th Block</h5>
+       <span> <p>316 places</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+       </span>
+      </div>
+      <div>
+        <h5>J.P Nagar</h5>
+       <span> <p>316 places</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+       </span>
+      </div>
+      <div>
+        <h5>HSR</h5>
+       <span> <p>316 places</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+       </span>
+      </div>
+    </section>
+    <div id="option">
+      <p>Explore options near me</p>
+    </div>
+
+    <section>
+      <div class="near-me">
+         <h5>Popular Cuisine Near Me</h5>
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+        </svg> 
+      </div>
+    </section>
+  </body>
+</html>

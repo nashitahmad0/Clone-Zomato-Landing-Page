@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: #343435;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .carousal{
+            overflow: hidden;
+            width: 600px;
+        }
+        .wrap{
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 250px;
+            justify-items: stretch;
+            animation: slide 40s linear infinite;
+        }
+        .wrap img{
+            display: flex;
+            width: 250px;
+            height: 200px;
+            border-radius:10px ;
+            object-fit: cover;
+        }
+        @keyframes slide {
+            to {
+                 translate: calc(-4 * 250px);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="carousal">
+        <div class="wrap">
+            <img src="./26f18f6b2d83a4bf523b57aa9fbdabc0_1727093856.avif" alt="">
+            <img src="./95f4feccc4c848ba72a7cd835595db77_1678453481.avif" alt="">
+            <img src="./9b52fd950248e531261083a5b8614966_1727267251.avif" alt="">
+            <img src="./bd99b4d133de596e2a7001f2a2b1f4ed_1721039365.avif" alt="">
+            <img src="./Best luxury dining.avif" alt="">
+            <img src="./Best Rooftop.avif" alt="">
+            <img src="./Delivery.webp" alt="">
+            <img src="./NightLife.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
